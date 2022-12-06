@@ -7,7 +7,10 @@
 * __GitHub__: nadezhda-t
 
 # Summary
-My goal is to learn coding as well as I can. And I want to get knowledge and skills to be really good frontend developer.
+My goal is to learn coding as well as I can. And I want to get knowledge and skills to be really good frontend developer. As Kent Beck said:
+
+> Make it work, make it right, make it fast. 
+
 My passion is dogs (espacial German Shepherd dogs, i have one of them).
 
 # Skills
