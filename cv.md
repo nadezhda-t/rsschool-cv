@@ -13,6 +13,8 @@ My goal is to learn coding as well as I can. And I want to get knowledge and ski
 
 My passion is dogs (espacial German Shepherd dogs, i have one of them).
 
+![](https://www.akc.org/wp-content/uploads/2016/06/German-Shepherd-Dog-laying-down-in-the-backyard-500x487.jpeg "German Shepherd")
+
 # Skills
 * HTML
 * CSS
