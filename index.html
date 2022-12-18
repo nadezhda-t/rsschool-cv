@@ -1,16 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-<head>
+
+<header>
+  <div class="container">
   <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-</head>
+   <title>Nadezhda Timonina CV</title>
+  <meta name="description" content="Nadezhda Timonina CV">
+  <meta name="author" content="Nadezhda Timonina">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/favicon.ico">
+<nav class="nav">
+  <ul class="nav-list">
+    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+    <li class="nav-item"><a href="#codeexamples" class="nav-link">Code Examples</a></li>
+    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+  </ul>
+</nav>
+ </div>
+</header>
 
 <body>
+  <div class="container">
   <script src="js/scripts.js"></script>
+
+  <main class="main-container">
+    <section class="section" id="contacts">
+      <h1 class=".section-title">Nadezhda Timonina</h1>
+      <p><img class="contacts-image" src="assets/image.jpg" alt="my photo"></p>
+      <h2 class=".section-title">My Contact Info</h2>
+    <ul class="contact-list">
+      <li><span class="contact-item">Address</span>: Henryka Poboznego str, Warsaw, Poland</li>
+      <li><span class="contact-item">Phone</span>: +48 514106094</li>
+      <li><span class="contact-item">E-mail</span>: nadezhda.web@gmail.com</li>
+      <li><span class="contact-item">GitHub</span>: nadezhda-t</li>
+    </ul>
+</section>
+<section class="section" id="summary">
+    <h2 class=".section-title">Summary</h2>
+    <p>My goal is to learn coding as well as I can. And I want to get knowledge and skills to be really good frontend developer.</p>
+
+    <p>My passion is dogs (espacial German Shepherd dogs, i have one of them).</p>
+
+</section>
+<section class="section" id="skills">
+    <h2 class=".section-title">Skills</h2>
+<ul class="skills-list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Framework Bootstrap</li>
+    <li>JavaScript (Basic)</li>
+</section>
+
+<section class="section" id="codeexamples">
+    <h2 class=".section-title">Code Examples</h2>
+<pre><code>
+    function sum(a, b) { return a + b; }
+    let result = sum(1, 2); alert( result );
+</code></pre>
+</section>
+<section class="section" id="experience">
+    <h2 class=".section-title">Experience</h2>
+
+    <a href="https://nadezhda-t.github.io/rsschool-cv/cv">CV</a> in RS School
+
+<section class="section" id="education">
+    <h2 class=".section-title">Education</h2>
+    <ul>
+    <li>«The Complete 2023 Web Development Bootcamp» (Udemy)</li>
+    <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+    </ul>
+
+<section class="section" id="english">
+    <h2 class=".section-title">English</h2>
+    A2 (B1 in progress)
+  </main>
+  </div>
 </body>
+
+<footer class="footer">
+  <div class="container">
+    <p>Nadezhda Timonina <a href="">Github</a> 2022</p>
+  <p><a href="https://rs.school/js/"><img class="image-footer" src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a></p>
+  </div>
+</footer>
+
 </html>
