@@ -10,12 +10,6 @@ body {
   background-color: #DEF5E5;
 }
 
-@media (max-width: 768px) {
-  .section {
-    width: 100%;
-  }
-}
-
 header {
   background-color: #97DECE;
 }
@@ -86,6 +80,12 @@ html {
 
 .section {
   width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
 
 .contact-item {
